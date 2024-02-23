@@ -20,7 +20,3 @@ To execute docker-compose.yml, then go to http://localhost:3000
 - `docker-compose up --build`
 
 If you encounter an error message like 'npm notice New minor version of npm available! 10.2.4 -> 10.4.0,' you can resolve it by updating the npm package like `sudo npm install -g npm@10.4.0`
-
-## Note
-
-- Install frontend dependencies before performing `docker compose up`
